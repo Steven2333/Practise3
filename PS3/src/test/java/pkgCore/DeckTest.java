@@ -47,7 +47,7 @@ public class DeckTest {
 	}
 	@Test
 	public void TestDeckSuitCount() {
-		Deck d = new Deck(); 
+		Deck d = new Deck();     
 		assertEquals(d.DeckSuitCount(pkgEnum.eSuit.DIAMONDS), 13);
 	}
 
